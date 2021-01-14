@@ -68,14 +68,6 @@ phases:
   provisionNodes: false
   serviceName: cvdeploy
   statefulSet: false
-preDeploymentSteps:
-- type: COMMAND
-  name: Start
-  properties:
-    commandType: OTHER
-  templateUri: Harness SE/Tomcat Commands/Start:latest
-  templateVariables:
-  - name: RuntimePath
 rollbackPhases:
 - type: KUBERNETES
   computeProviderName: gn-k8s
