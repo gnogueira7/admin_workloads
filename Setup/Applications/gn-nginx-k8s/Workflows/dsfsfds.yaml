@@ -33,10 +33,10 @@ phases:
     name: Verify
     stepsInParallel: false
   - type: K8S_PHASE_STEP
-    name: Wrap Up
+    name: d
     stepsInParallel: false
   - type: K8S_PHASE_STEP
-    name: d
+    name: Wrap Up
     stepsInParallel: false
   provisionNodes: false
   serviceName: nginx
