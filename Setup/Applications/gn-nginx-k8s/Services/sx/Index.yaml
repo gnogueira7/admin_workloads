@@ -1,5 +1,0 @@
-harnessApiVersion: '1.0'
-type: SERVICE
-applicationStack: jboss-as-18.0.1.Final
-artifactType: OTHER
-deploymentType: SSH
