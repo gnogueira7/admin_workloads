@@ -28,6 +28,13 @@ phases:
     steps:
     - type: K8S_DEPLOYMENT_ROLLING
       name: Rollout Deployment
+    - type: COMMAND
+      name: Stop
+      properties:
+        commandType: OTHER
+      templateUri: Harness SE/JBoss Commands/Stop:latest
+      templateVariables:
+      - name: RuntimePath
     stepsInParallel: false
   - type: K8S_PHASE_STEP
     name: Verify
