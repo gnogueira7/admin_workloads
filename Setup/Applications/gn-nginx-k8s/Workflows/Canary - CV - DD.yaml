@@ -34,6 +34,16 @@ phases:
     stepsInParallel: false
   - type: K8S_PHASE_STEP
     name: Verify
+    steps:
+    - type: DATA_DOG
+      name: Datadog Metrics
+      properties:
+        analysisServerConfigId: VDRq-SkFSdWpg66Xfw9b4g
+        analysisTolerance: LOW
+        comparisonStrategy: COMPARE_WITH_CURRENT
+        hostnameTemplate: ${host.hostName}
+        metrics: docker.cpu.throttled,docker.cpu.usage,docker.mem.rss,kubernetes.cpu.usage.total,kubernetes.filesystem.usage,kubernetes.filesystem.usage_pct,kubernetes.io.write_bytes,kubernetes.memory.usage,kubernetes.memory.usage_pct
+        timeDuration: 15
     stepsInParallel: false
   - type: K8S_PHASE_STEP
     name: Wrap Up
