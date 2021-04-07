@@ -1,0 +1,7 @@
+harnessApiVersion: '1.0'
+type: TRIGGER
+continueWithDefaultValues: false
+executionName: Cananry nginx
+executionType: Workflow
+triggerCondition:
+- type: WEBHOOK
