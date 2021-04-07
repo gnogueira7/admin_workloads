@@ -64,6 +64,7 @@ rollbackPhases:
 templatized: true
 userVariables:
 - type: TEXT
+  allowedValues: teste, ok, xe
   fixed: false
   mandatory: false
   name: x
