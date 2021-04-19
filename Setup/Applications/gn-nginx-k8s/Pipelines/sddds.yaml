@@ -10,3 +10,5 @@ pipelineStages:
   workflowName: Rollout NGINX
   workflowVariables:
   - name: env
+tags:
+  ${workflow.variables.canary_deployment}: ''
