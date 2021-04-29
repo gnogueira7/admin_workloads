@@ -9,4 +9,4 @@ pipelineStages:
   stageName: STAGE 1
   workflowName: nginx_deploy
 tags:
-  team: ''
+  team: gn
