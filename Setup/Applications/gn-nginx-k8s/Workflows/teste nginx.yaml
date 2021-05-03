@@ -142,7 +142,7 @@ userVariables:
   name: InfraDefinition_KUBERNETES
 - type: TEXT
   fixed: false
-  mandatory: true
+  mandatory: false
   name: teste
   value: ${service.name}
 - type: TEXT
