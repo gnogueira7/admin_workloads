@@ -24,3 +24,4 @@ pipelineStages:
     value: minikube-gui-dd
 tags:
   teste: ${workflow.variables.teste}
+  teste2: ${workflow.variables.teste2}
