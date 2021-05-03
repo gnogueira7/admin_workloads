@@ -68,3 +68,8 @@ userVariables:
   mandatory: true
   name: teste
   value: ${service.name}
+- type: TEXT
+  fixed: false
+  mandatory: false
+  name: teste2
+  value: ${serviceVariable.teste}
