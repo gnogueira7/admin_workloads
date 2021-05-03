@@ -8,7 +8,3 @@ pipelineStages:
     type: DO_NOT_SKIP
   stageName: STAGE 1
   workflowName: Rollout NGINX
-  workflowVariables:
-  - name: env
-tags:
-  env: ${workflow.variables.env}
