@@ -13,3 +13,5 @@ pipelineStages:
     value: ${service.name}
   - name: teste2
     value: ${serviceVariable.teste}
+tags:
+  teste: ${workflow.variables.teste}
