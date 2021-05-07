@@ -61,10 +61,10 @@ rollbackPhases:
   provisionNodes: false
   serviceName: nginx
   statefulSet: false
-templatized: true
+templatized: false
 userVariables:
 - type: TEXT
-  fixed: false
+  fixed: true
   mandatory: false
   name: nome
   value: ${deploymentTriggeredBy}
