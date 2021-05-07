@@ -11,3 +11,5 @@ pipelineStages:
   workflowVariables:
   - name: nome
     value: ${deploymentTriggeredBy}
+tags:
+  nome: ${workflow.variables.deploymentTriggeredBy}
