@@ -68,3 +68,8 @@ userVariables:
   mandatory: false
   name: nome
   value: ${deploymentTriggeredBy}
+- type: TEXT
+  fixed: true
+  mandatory: false
+  name: artefato
+  value: ${artifact.buildNo}
