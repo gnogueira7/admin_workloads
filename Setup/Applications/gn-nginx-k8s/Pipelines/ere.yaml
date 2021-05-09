@@ -1,2 +1,26 @@
 harnessApiVersion: '1.0'
 type: PIPELINE
+pipelineStages:
+- type: ENV_STATE
+  name: teste nginx
+  parallel: false
+  skipCondition:
+    type: DO_NOT_SKIP
+  stageName: STAGE 1
+  workflowName: teste nginx
+  workflowVariables:
+  - name: teste
+    value: ${service.name}
+  - name: teste2
+    value: ${serviceVariable.teste}
+  - name: Ambiente
+    value: ${env.name}
+  - entityType: ENVIRONMENT
+    name: Environment
+    value: gn-nginx-prod
+  - entityType: SERVICE
+    name: Service
+    value: nginx
+  - entityType: INFRASTRUCTURE_DEFINITION
+    name: InfraDefinition_KUBERNETES
+    value: gn-minik8s
