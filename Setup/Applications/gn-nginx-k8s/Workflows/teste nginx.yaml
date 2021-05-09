@@ -150,3 +150,8 @@ userVariables:
   mandatory: false
   name: teste2
   value: ${serviceVariable.teste}
+- type: TEXT
+  fixed: true
+  mandatory: false
+  name: Ambiente
+  value: ${env.name}
