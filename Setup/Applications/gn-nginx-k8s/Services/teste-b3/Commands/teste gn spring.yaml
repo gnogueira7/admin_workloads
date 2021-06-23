@@ -12,3 +12,4 @@ templateVariables:
   value: /apps/energia/back
 - name: AppUser
 - name: DiretorioBackup
+- name: DiretorioScripts
