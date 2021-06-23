@@ -4,12 +4,6 @@ commandUnitType: COMMAND
 targetToAllEnv: true
 templateUri: Harness SE/GN/teste gn spring:latest
 templateVariables:
-- name: Diretorio_Scripts
-  value: /apps/energia/back/scripts
-- name: Diretorio_Backup
-  value: /apps/energia/back/backup
-- name: Diretorio_Destino
-  value: /apps/energia/back
 - name: AppUser
 - name: DiretorioBackup
 - name: DiretorioScripts
