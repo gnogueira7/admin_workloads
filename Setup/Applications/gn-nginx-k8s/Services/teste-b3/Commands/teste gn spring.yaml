@@ -1,0 +1,9 @@
+harnessApiVersion: '1.0'
+type: OTHER
+commandUnitType: COMMAND
+targetToAllEnv: true
+templateUri: Harness SE/GN/teste gn spring:latest
+templateVariables:
+- name: Diretorio_Scripts
+- name: Diretorio_Backup
+- name: Diretorio_Destino
