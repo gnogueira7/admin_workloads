@@ -38,6 +38,11 @@ phases:
     stepsInParallel: false
   - type: DEPLOY_SERVICE
     name: Deploy Service
+    steps:
+    - type: COMMAND
+      name: teste gn spring
+      properties:
+        commandName: teste gn spring
     stepsInParallel: false
   - type: ENABLE_SERVICE
     name: Enable Service
