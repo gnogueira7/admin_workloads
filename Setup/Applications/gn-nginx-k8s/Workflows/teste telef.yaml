@@ -49,17 +49,9 @@ phases:
     name: Wrap Up
     stepsInParallel: false
   provisionNodes: false
-  serviceName: teste-telefonica
+  serviceName: teste-b3
   statefulSet: false
   templateExpressions:
-  - expression: ${Service}
-    fieldName: serviceId
-    metadata:
-    - name: relatedField
-    - name: artifactType
-      value: ZIP
-    - name: entityType
-      value: SERVICE
   - expression: ${InfraDefinition_SSH}
     fieldName: infraDefinitionId
     metadata:
@@ -106,17 +98,9 @@ rollbackPhases:
     name: Wrap Up
     stepsInParallel: false
   provisionNodes: false
-  serviceName: teste-telefonica
+  serviceName: teste-b3
   statefulSet: false
   templateExpressions:
-  - expression: ${Service}
-    fieldName: serviceId
-    metadata:
-    - name: relatedField
-    - name: artifactType
-      value: ZIP
-    - name: entityType
-      value: SERVICE
   - expression: ${InfraDefinition_SSH}
     fieldName: infraDefinitionId
     metadata:
@@ -131,14 +115,6 @@ templateExpressions:
     value: ${InfraDefinition_SSH}
   - name: entityType
     value: ENVIRONMENT
-- expression: ${Service}
-  fieldName: serviceId
-  metadata:
-  - name: relatedField
-  - name: artifactType
-    value: ZIP
-  - name: entityType
-    value: SERVICE
 - expression: ${InfraDefinition_SSH}
   fieldName: infraDefinitionId
   metadata:
@@ -152,11 +128,6 @@ userVariables:
   fixed: false
   mandatory: true
   name: Environment
-- type: ENTITY
-  description: Variable for Service entity
-  fixed: false
-  mandatory: true
-  name: Service
 - type: ENTITY
   description: Variable for Infrastructure Definition entity
   fixed: false
