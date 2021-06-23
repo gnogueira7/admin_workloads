@@ -38,11 +38,6 @@ phases:
     stepsInParallel: false
   - type: DEPLOY_SERVICE
     name: Deploy Service
-    steps:
-    - type: COMMAND
-      name: teste
-      properties:
-        commandName: teste
     stepsInParallel: false
   - type: ENABLE_SERVICE
     name: Enable Service
