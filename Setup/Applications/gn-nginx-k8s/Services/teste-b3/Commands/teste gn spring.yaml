@@ -5,7 +5,7 @@ targetToAllEnv: true
 templateUri: Harness SE/GN/teste gn spring:latest
 templateVariables:
 - name: AppUser
-  value: teste
+  value: ec2-user
 - name: DiretorioBackup
   value: /apps/energia/back/backup
 - name: DiretorioScripts
