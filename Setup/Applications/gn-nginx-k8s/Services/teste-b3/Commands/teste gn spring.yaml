@@ -13,3 +13,4 @@ templateVariables:
 - name: AppUser
 - name: DiretorioBackup
 - name: DiretorioScripts
+- name: DiretorioDestino
