@@ -10,5 +10,4 @@ templateVariables:
   value: /apps/energia/back/backup
 - name: Diretorio_Destino
   value: /apps/energia/back
-- name: App_User
 - name: AppUser
