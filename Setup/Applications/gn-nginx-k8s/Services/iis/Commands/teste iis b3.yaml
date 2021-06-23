@@ -5,7 +5,9 @@ targetToAllEnv: true
 templateUri: Harness SE/GN/teste iis b3:latest
 templateVariables:
 - name: ReleaseNo
+  value: 1.0.0
 - name: ServiceName
+  value: iis
 - name: AppPoolName
   value: DefaultAppPool
 - name: AppPoolDotNetVersion
