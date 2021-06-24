@@ -38,6 +38,11 @@ phases:
     stepsInParallel: false
   - type: DEPLOY_SERVICE
     name: Deploy Service
+    steps:
+    - type: COMMAND
+      name: teste iis b3
+      properties:
+        commandName: teste iis b3
     stepsInParallel: false
   - type: ENABLE_SERVICE
     name: Enable Service
