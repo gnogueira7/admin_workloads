@@ -16,3 +16,4 @@ templateVariables:
   value: $env:TEMP
 - name: AppPhysicalDirectory
   value: $env:SYSTEMDRIVE
+- name: DiretorioBinario
