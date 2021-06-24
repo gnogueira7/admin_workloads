@@ -1,0 +1,10 @@
+harnessApiVersion: '1.0'
+type: INFRA_DEFINITION
+cloudProviderType: PHYSICAL_DATA_CENTER
+deploymentType: WINRM
+infrastructure:
+- type: PHYSICAL_DATA_CENTER_WINRM
+  cloudProviderName: Physical Data Center - GN
+  hostNames:
+  - 34.123.234.118
+  winRmConnectionAttributesName: lr-winrm-gcp
