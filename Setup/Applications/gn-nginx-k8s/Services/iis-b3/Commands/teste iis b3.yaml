@@ -13,4 +13,4 @@ templateVariables:
 - name: AppPhysicalDirectory
   value: $env:SYSTEMDRIVE
 - name: DiretorioBinario
-  value: C:\WEBAPPS\BlockWeb
+  value: C:\WEBAPPS\BlockWeb\
