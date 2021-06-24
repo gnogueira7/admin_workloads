@@ -13,6 +13,6 @@ templateVariables:
 - name: AppPoolDotNetVersion
   value: v4.0
 - name: DownloadDirectory
-  value: C:/temp
+  value: $env:TEMP
 - name: AppPhysicalDirectory
   value: $env:SYSTEMDRIVE
